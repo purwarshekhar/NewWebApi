@@ -15,6 +15,14 @@ namespace WebApiDemo.Controllers.API
             return View();
         }
 
+        public ActionResult GetStudentName2()
+        {
+            ViewBag.Title = "Home Page";
+
+            return View();
+        }
+
+
         public ActionResult GetNewStudentData()
         {
             ViewBag.Title = "GetNewStudentData Page";
