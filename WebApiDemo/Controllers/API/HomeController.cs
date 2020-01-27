@@ -36,5 +36,12 @@ namespace WebApiDemo.Controllers.API
 
             return View();
         }
+
+        public ActionResult GetNewStudentData3()
+        {
+            ViewBag.Title = "Rebase 3 Page";
+
+            return View();
+        }
     }
 }
