@@ -15,4 +15,4 @@ stages:
   jobs:
   - job: Test
     steps:
-    - script: echo $(secret)
+    - script: echo $(mySecret)
