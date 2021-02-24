@@ -9,7 +9,7 @@ pool:
   vmImage: 'ubuntu-latest'
  
 variables:
-- group: demogroup
+- group: App-project
 stages:
 - stage: demostage
   jobs:
